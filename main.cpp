@@ -1,14 +1,8 @@
-/** File KTVSystem.cpp KTV歌曲系统
- * 项目地址：
- * CSDN博客：https://blog.csdn.net/HuaQi666
- * 开发者：http://bingbingfuhao.cn
- * 邮箱：3173484026@qq.com
- * 创建时间: 2023/8/21
- */
 # include "stdio.h"     
 # include "stdlib.h"    
 # include "string.h"   
 # define size 100 
+
 typedef struct         
 {
 	long booknumber;											 
@@ -18,6 +12,7 @@ typedef struct
 	float price;
 	int nownum;
 }book;
+
 typedef struct
 {
 	long cardnumber;
@@ -27,6 +22,7 @@ typedef struct
 	char clas[20];
 	char condition[20];
 }Member;
+
  void Bookfound();							    
  void Bookdel();
  void Bookadd();						         
